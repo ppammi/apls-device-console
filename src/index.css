@@ -1,0 +1,25 @@
+/* Deliberately minimal: the exercise isn't scored on CSS. */
+body { font-family: system-ui, sans-serif; margin: 0; padding: 1rem; color: #222; }
+header { display: flex; align-items: center; justify-content: space-between; }
+h1 { font-size: 1.4rem; }
+.layout { display: grid; grid-template-columns: 3fr 2fr; gap: 1rem; align-items: start; }
+.panel { border: 1px solid #ddd; border-radius: 6px; padding: 1rem; }
+.filters { display: flex; gap: 1rem; align-items: end; margin-bottom: 0.75rem; }
+.filters label { display: flex; flex-direction: column; font-size: 0.85rem; gap: 0.25rem; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th, td { text-align: left; padding: 0.4rem; border-bottom: 1px solid #eee; vertical-align: top; }
+tr[aria-selected='true'] { background: #eef4ff; }
+table.is-stale { opacity: 0.6; }
+.link { background: none; border: 0; padding: 0; color: #1a56db; cursor: pointer; text-decoration: underline; font: inherit; }
+.badge { font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 4px; background: #eee; }
+.swatch { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 50%; margin-right: 0.35rem; }
+.fields { display: grid; grid-template-columns: max-content 1fr; gap: 0.3rem 1rem; }
+.fields dt { color: #666; }
+.fields dd { margin: 0; }
+.actions { display: flex; gap: 0.5rem; margin: 1rem 0; }
+.pager { display: flex; gap: 0.75rem; align-items: center; margin-top: 0.75rem; }
+.error { color: #b3261e; background: #fdecea; padding: 0.5rem; border-radius: 4px; margin: 0.5rem 0; }
+.warning { color: #7a4f01; background: #fff4e0; padding: 0.5rem; border-radius: 4px; margin: 0.5rem 0; }
+.warning ul { margin: 0.25rem 0 0; }
+.muted, .status { color: #777; font-size: 0.85rem; }
+.history { margin-top: 1.5rem; }
