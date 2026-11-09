@@ -1,4 +1,4 @@
-# ALPS Device Console – take-home
+# ALPS Device Console
 
 A slice of the ALPS operator console: searchable, paginated device list, device detail with
 action history, and a "Lock device" action with optimistic update and rollback.
